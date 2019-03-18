@@ -11,6 +11,7 @@ public class Address {
     private Date date;
     private String uid;
 
+
     public String getAid() {
         return aid;
     }
