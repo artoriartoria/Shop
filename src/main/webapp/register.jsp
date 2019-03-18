@@ -13,7 +13,7 @@
 <div class="zl-header">
     <div class="zl-hd w1200">
         <p class="hd-p1 f-l">
-            Hi!您好，欢迎来到宅客微购，请登录  <a href="注册.html">【免费注册】</a>
+            Hi!您好，欢迎来到宅客微购，请登录  <a href="register.jsp">【免费注册】</a>
         </p>
         <p class="hd-p2 f-r">
             <a href="index.html">返回首页 (个人中心)</a><span>|</span>

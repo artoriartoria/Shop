@@ -11,7 +11,6 @@ public class Address {
     private Date date;
     private String uid;
 
-
     public String getAid() {
         return aid;
     }
@@ -66,5 +65,18 @@ public class Address {
 
     public void setUid(String uid) {
         this.uid = uid;
+    }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "aid='" + aid + '\'' +
+                ", name='" + name + '\'' +
+                ", tel='" + tel + '\'' +
+                ", addr='" + addr + '\'' +
+                ", state=" + state +
+                ", date=" + date +
+                ", uid='" + uid + '\'' +
+                '}';
     }
 }

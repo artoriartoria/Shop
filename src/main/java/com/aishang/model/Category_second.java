@@ -6,6 +6,16 @@ public class Category_second {
     private Integer state;
     private String cid;
 
+    @Override
+    public String toString() {
+        return "Category_second{" +
+                "csid='" + csid + '\'' +
+                ", caname='" + caname + '\'' +
+                ", state=" + state +
+                ", cid='" + cid + '\'' +
+                '}';
+    }
+
     public String getCsid() {
         return csid;
     }

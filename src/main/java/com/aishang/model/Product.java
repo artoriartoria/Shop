@@ -13,6 +13,21 @@ public class Product {
     private Integer state;
     private Integer stock;
 
+    @Override
+    public String toString() {
+        return "Product{" +
+                "pid='" + pid + '\'' +
+                ", pname='" + pname + '\'' +
+                ", pdesc='" + pdesc + '\'' +
+                ", date=" + date +
+                ", csid='" + csid + '\'' +
+                ", market_price=" + market_price +
+                ", shop_price=" + shop_price +
+                ", state=" + state +
+                ", stock=" + stock +
+                '}';
+    }
+
     public String getPid() {
         return pid;
     }

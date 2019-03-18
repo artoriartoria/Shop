@@ -10,6 +10,18 @@ public class Order_item {
     private String oid;
     private Date date;
 
+    @Override
+    public String toString() {
+        return "Order_item{" +
+                "order_item_id='" + order_item_id + '\'' +
+                ", pid='" + pid + '\'' +
+                ", count=" + count +
+                ", sub_total=" + sub_total +
+                ", oid='" + oid + '\'' +
+                ", date=" + date +
+                '}';
+    }
+
     public String getOrder_item_id() {
         return order_item_id;
     }

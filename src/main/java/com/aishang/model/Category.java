@@ -5,6 +5,15 @@ public class Category {
     private String cname;
     private Integer state;
 
+    @Override
+    public String toString() {
+        return "Category{" +
+                "cid='" + cid + '\'' +
+                ", cname='" + cname + '\'' +
+                ", state=" + state +
+                '}';
+    }
+
     public String getCid() {
         return cid;
     }

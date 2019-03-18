@@ -11,6 +11,19 @@ public class Orders {
     private Date date;
     private String uid;
 
+    @Override
+    public String toString() {
+        return "Orders{" +
+                "oid='" + oid + '\'' +
+                ", order_number='" + order_number + '\'' +
+                ", total=" + total +
+                ", aid='" + aid + '\'' +
+                ", state=" + state +
+                ", date=" + date +
+                ", uid='" + uid + '\'' +
+                '}';
+    }
+
     public String getOid() {
         return oid;
     }

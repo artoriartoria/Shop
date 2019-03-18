@@ -10,6 +10,18 @@ public class Image {
     private Date date;
     private String pid;
 
+    @Override
+    public String toString() {
+        return "Image{" +
+                "image_id='" + image_id + '\'' +
+                ", name='" + name + '\'' +
+                ", old_name='" + old_name + '\'' +
+                ", path='" + path + '\'' +
+                ", date=" + date +
+                ", pid='" + pid + '\'' +
+                '}';
+    }
+
     public String getImage_id() {
         return image_id;
     }

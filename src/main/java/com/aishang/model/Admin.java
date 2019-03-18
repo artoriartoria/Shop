@@ -9,6 +9,17 @@ public class Admin {
     private Integer power;
     private Date date;
 
+    @Override
+    public String toString() {
+        return "Admin{" +
+                "admin_id='" + admin_id + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", power=" + power +
+                ", date=" + date +
+                '}';
+    }
+
     public String getAdmin_id() {
         return admin_id;
     }
