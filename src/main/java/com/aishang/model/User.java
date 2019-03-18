@@ -3,7 +3,7 @@ package com.aishang.model;
 import java.util.Date;
 
 public class User {
-    private int uid;
+    private String uid;
     private String username;
     private String password;
     private Date date;
@@ -31,11 +31,11 @@ public class User {
 
 
 
-    public int getUid() {
+    public String getUid() {
         return uid;
     }
 
-    public void setUid(int uid) {
+    public void setUid(String uid) {
         this.uid = uid;
     }
 
